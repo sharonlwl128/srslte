@@ -3,4 +3,4 @@
 echo "testing"
 ping -c 10 10.11.5.201
 cd srsue
-srsenb ue.conf
+srsue ue.conf
