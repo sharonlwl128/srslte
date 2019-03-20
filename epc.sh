@@ -9,5 +9,6 @@ for pid in $(pidof -x $script_name); do
 done
 
 ping -c 5 10.11.5.201
+ping -c 5 10.11.5.203
 cd srsepc
 sudo srsepc epc.conf
